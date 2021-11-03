@@ -9,7 +9,7 @@ let logo = `https://cdn.ytt-bot.xyz/img/1/watch_together_logo.png`
 /// functions
 
 function logEmbed(name, content){
-    const webhook = new Discord.WebhookClient({ id: "857307075758915594", token: "UXH05d2vNzOiXQBV8ejGpI8gsd_Z0RajoVXI4e9LdYbHrhZ48yR_tLpEt3PRfJQahews"})   //("857307075758915594", "UXH05d2vNzOiXQBV8ejGpI8gsd_Z0RajoVXI4e9LdYbHrhZ48yR_tLpEt3PRfJQahews");
+    const webhook = new Discord.WebhookClient({ id: "ID", token: "TOKEN"})
     webhook.send({
         username: name,
         avatarURL: `https://cdn.ytt-bot.xyz/img/1/watch_together_logo.png`,
@@ -21,7 +21,7 @@ function logEmbed(name, content){
 /// code
 
 const manager = new ShardingManager('./index.js', {
-    token: 'ODMwMTU1NzY0ODY1Njk1NzU3.YHCkzQ.Vpnqdx8K1kyN9zybfVAIZ9ls47E', 
+    token: 'TOKEN', 
     totalShards: "auto",
     respawn: true, 
 });
