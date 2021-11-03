@@ -8,7 +8,7 @@ module.exports = {
     },
 
     discord: {
-        token: 'ODMwMTU1NzY0ODY1Njk1NzU3.YHCkzQ.Vpnqdx8K1kyN9zybfVAIZ9ls47E', 
+        token: 'TOKEN', 
         prefix: 'yt!',
         activity: 'New version !',
         logo: 'https://cdn.ytt-bot.xyz/img/1/watch_together_logo.png',
