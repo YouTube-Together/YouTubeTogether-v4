@@ -15,7 +15,7 @@ module.exports = {
         id: '904749767211503706'
     },
     support: {
-        invite: 'https://discord.gg/fem8A8HR4f'
+        invite: 'https://discord.gg/youtube-together'
     },
     bot: {
         invite: 'https://discord.com/api/oauth2/authorize?client_id=830155764865695757&permissions=377974279233&scope=bot%20applications.commands'
