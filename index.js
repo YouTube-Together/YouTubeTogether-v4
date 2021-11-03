@@ -14,6 +14,7 @@ const client = new Client({
 	],
 });
 
+
 const eventFiles = fs
 	.readdirSync("./events")
 	.filter((file) => file.endsWith(".js"));
