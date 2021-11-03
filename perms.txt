@@ -1,0 +1,10 @@
+    
+ 1 -> Owner
+ 2 -> Admin
+ 3 -> Manager
+ 4 -> Developer
+ 5 -> Moderator
+ 6 -> Bug Hunters
+ 7 -> VIP
+ 8 -> Premium 
+ 9 -> User
