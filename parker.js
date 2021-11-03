@@ -19,7 +19,7 @@ const express = require('express')
 const app = express() // Your express app
 const Topgg = require('@top-gg/sdk')
 
-const webhook = new Topgg.Webhook('ytt@bot.1029384756') // add your top.gg webhook authorization (not bot token)
+const webhook = new Topgg.Webhook('AUTORIZATION') // add your top.gg webhook authorization (not bot token)
 
 app.post('/topgg', webhook.listener(vote => {
   client.users.fetch(vote.user).then((usr) => {
@@ -30,7 +30,7 @@ app.post('/topgg', webhook.listener(vote => {
     .setDescription(`Thank you very much for your vote, **${usr.tag}** \`[${db.get(`${usr.id}.upvote.count`)} upvotes]\`\n*[Click here](https://top.gg/bot/830155764865695757/vote) to uptvote!*`)
     .setFooter(`ID: ${usr.id}`, usr.displayAvatarURL({ dynamic: true}))
     .setTimestamp()
-    const webhook = new Discord.WebhookClient({ id: "902559555635007498", token: "t3UKH2aF3uzEdKTplM3MAgm4w_V0mv0y8vnsRtSW7CsKOVVzq4WqobfIxYS4BkUDyCx8" })
+    const webhook = new Discord.WebhookClient({ id: "ID", token: "TOKEN" })
     webhook.send({
         username: `YouTube Together`,
         avatarURL: `${client.config.discord.logo}`,
@@ -42,4 +42,4 @@ app.post('/topgg', webhook.listener(vote => {
 
 app.listen(3232) // your port
 
-client.login("ODQ4MzM5OTk4NTQ4Njg4OTI2.YLLMMQ.SIGR8woYv-2UPjNclreZLMKdePM")
+client.login("TOKEN")
