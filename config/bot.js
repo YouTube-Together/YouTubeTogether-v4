@@ -10,7 +10,7 @@ module.exports = {
     discord: {
         token: 'TOKEN', 
         prefix: 'yt!',
-        activity: 'New version !',
+        activity: '--------',
         logo: 'https://cdn.ytt-bot.xyz/img/1/watch_together_logo.png',
         id: '904749767211503706'
     },
