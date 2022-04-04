@@ -18,7 +18,7 @@ module.exports = {
 			.setDescription(`**• Author:** ${interaction.member.user.tag}\n**• ID:** ${interaction.member.user.id}\n\n**• Guild:** ${interaction.guild.name}\n**• ID:** ${interaction.guild.id}\n**• Members:** ${interaction.guild.memberCount}\n\n**• Channel:** ${interaction.channel.name}\n**• ID:** ${interaction.channel.id}\n\n**• Link:** [Message Link](https://discord.com/channels/${interaction.guild.id}/${interaction.channel.id})\n**• Invite:** [Invite Link](https://discord.gg/${i.code})\n\n**• Message:** \`\`\`${query}\`\`\``)
 			.setTimestamp()
 	
-			const webhook = new Discord.WebhookClient({ id: "897901385566289920", token: "lWpIQtKdGdi_ghDHkEvq3MS6e99fO8aWXEACnlGXCIXF6OQmnI8FCkpJzI0WJxz95ytU"})   //("857307075758915594", "UXH05d2vNzOiXQBV8ejGpI8gsd_Z0RajoVXI4e9LdYbHrhZ48yR_tLpEt3PRfJQahews");
+			const webhook = new Discord.WebhookClient({ id: "ID", token: "TOKEN"})
 			webhook.send({
 				username: 'Youtube Together - Report',
 				avatarURL: `https://cdn.ytt-bot.xyz/img/1/watch_together_logo.png`,
